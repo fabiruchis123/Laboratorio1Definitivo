@@ -1,9 +1,6 @@
 package Persons.Dtos;
 
-/**
- *
- * @author David Duarte Garcia
- */
+
 public class UserDto extends PersonDto {
      private String userName;
     private int    password;

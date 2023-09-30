@@ -3,9 +3,7 @@ package Transactions.Dtos;
 import Account.Account;
 import java.util.Date;
 
-/**
- * @author David Duarte Garcia
- */
+
 public abstract class TransactionDto{
     private boolean amount;
     private Account source;

@@ -2,10 +2,7 @@ package Account;
 
 import Persons.Customer;
 
-/**
- *
- * @author David Duarte Garcia
- */
+
 public class DollarAccount extends Account{
     private static double exchangeRate;
 

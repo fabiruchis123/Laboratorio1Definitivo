@@ -3,10 +3,7 @@ package Accounts.Dtos;
 
 import Persons.Customer;
 
-/**
- *
- * @author sebas
- */
+
 public class AccountDto {
     private String   number;
     double           balance;

@@ -7,10 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-/**
- *
- * @author David Duarte Garcia
- */
+
 public class CardDaoList implements Crud<CardDto> {
     private HashMap<String, CardDto> cardList;
 

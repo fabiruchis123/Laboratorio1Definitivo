@@ -7,10 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-/**
- *
- * @author sebas
- */
+
 public class AccountDaoList implements Crud<AccountDto>{
     
     private HashMap<String, AccountDto> AccountList;

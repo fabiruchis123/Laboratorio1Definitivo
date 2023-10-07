@@ -16,8 +16,6 @@ public class AccountDaoList implements Crud<AccountDto>{
         this.AccountList = AccountList;
     }
     
-    
-
     @Override
     public boolean create(AccountDto account) {
         if (account == null){

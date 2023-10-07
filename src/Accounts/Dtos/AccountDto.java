@@ -29,6 +29,4 @@ public class AccountDto {
         return customer;
     }
 
-    
-    
 }

@@ -1,6 +1,9 @@
 package Transactions.Daos;
 
 
-public class DepositDao {
+
+
+public class DepositDao{
+
     
 }

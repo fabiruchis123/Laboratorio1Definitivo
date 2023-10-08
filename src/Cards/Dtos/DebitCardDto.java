@@ -2,12 +2,6 @@ package Cards.Dtos;
 
 import Account.Account;
 
-
-
-/**
- *
- * @author David Duarte Garcia
- */
 public class DebitCardDto extends CardDto {
      private Account account;
 

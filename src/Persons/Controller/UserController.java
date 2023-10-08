@@ -8,10 +8,7 @@ import Persons.User;
 import Views.View;
 import java.util.List;
 
-/**
- *
- * @author David Duarte Garcia
- */
+
 public class UserController implements Controller<User> {
     private View view;
     private Dao dao;

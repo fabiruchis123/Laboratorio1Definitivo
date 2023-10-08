@@ -7,9 +7,7 @@ import Persons.Daos.UserDaoList;
 import Persons.User;
 import Views.PersonView.UserFrmView;
 
-/**
- * @author David Duarte Garcia
- */
+
 public class Test {
 
     /**

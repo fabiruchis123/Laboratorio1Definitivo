@@ -3,10 +3,6 @@ package Accounts.Dtos;
 
 import Persons.Customer;
 
-/**
- *
- * @author sebas
- */
 public class DollarAccountDto extends AccountDto{
        private static double exchangeRate;    
     

@@ -3,10 +3,7 @@ package Persons.Dtos;
 import java.util.Date;
 
 
-/**
- *
- * @author David Duarte Garcia
- */
+
 public class CustomerDto extends PersonDto {
   private Date   dateOfBirth; 
   private String phone; 

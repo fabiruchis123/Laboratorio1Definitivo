@@ -5,6 +5,6 @@ package Accounts.Daos;
  *
  * @author sebas
  */
-public class DaoAccountList {
+public class DaoAccountList  {
     
 }

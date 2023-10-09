@@ -15,7 +15,11 @@ public abstract class Account implements StatusControll{
     private boolean  active = true;
 
     public Account(String number, double balance, Customer customer) {
-        this.number   = number;
+        this(number);
+    }
+
+    public Account(String number) {
+        this.number = number;
         this.balance  = balance;
         this.customer = customer;
         this.active   = active;

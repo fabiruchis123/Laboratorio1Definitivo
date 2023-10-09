@@ -12,5 +12,5 @@ public class WithdrawalDto extends Transaction{
         super(amount, source, date, number, customer);
     }
     
-      
+    
 }

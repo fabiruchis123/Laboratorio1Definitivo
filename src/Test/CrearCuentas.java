@@ -7,6 +7,8 @@ package Test;
 import Account.Account;
 import Account.ColonAccount;
 import Account.DollarAccount;
+import GestorCuentas.GestorCuenta;
+import GestorCuentas.TipoMoneda;
 
 /**
  *
@@ -18,14 +20,17 @@ public class CrearCuentas {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Account[] cuentas = new Account[7];
-        DollarAccount[] cuentasDolares = new DollarAccount[7];
-        ColonAccount[] cuentasColones = new ColonAccount[7];
+        GestorCuenta cuentas = new GestorCuenta();
+
         
-        
-        for (int i = 0; i < 7; i++) {
-//            cuentasDolares[i] = new DollarAccount();
-//            cuentasColones[i] = new ColonAccount();
+        for (int i = 1; i <= 7; i++) {
+            Account cuentaColones = cuentas.CrearCuenta(TipoMoneda.COLONES);
+            System.out.println("Cuentas disponibles en colones"+ cuentaColones);
+        }
+
+        for (int i = 1; i <= 7; i++) {
+            Account cuentaDolares = cuentas.CrearCuenta(TipoMoneda.DOLARES);
+            System.out.println("Cuentas disponibles en dolares"+ cuentaDolares);
         }
     }
     

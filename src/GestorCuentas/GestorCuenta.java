@@ -5,17 +5,20 @@
 package GestorCuentas;
 
 import Account.Account;
+import Account.ColonAccount;
+import Account.DollarAccount;
+import Persons.Customer;
 
 /**
  *
  * @author maryc
  */
 public class GestorCuenta {
-  public   Account CrearCuenta(TipoMoneda tipoMoneda){
+  public   Account CrearCuenta(String number, double balance, Customer customer, TipoMoneda tipoMoneda){
       if(tipoMoneda==tipoMoneda.COLONES){
-          return new Account("Colones") {};
+          return new ColonAccount(number, balance, customer, "Colones");
       }else if(tipoMoneda==tipoMoneda.DOLARES){
-          return new Account(" Dolares") {};
+          return new DollarAccount(number,balance,customer, " Dolares");
       }else{
           throw new IllegalArgumentException(" Tipo de moneda invalido");
       }

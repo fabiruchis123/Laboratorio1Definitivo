@@ -1,10 +1,6 @@
 package Transactions.Dtos;
 
-<<<<<<< HEAD
-
-=======
 import Account.Account;
->>>>>>> desarrollo
 import Persons.Customer;
 import Transactions.Transaction;
 import java.util.Date;

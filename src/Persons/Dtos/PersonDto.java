@@ -1,9 +1,6 @@
 package Persons.Dtos;
 
-/**
- *
- * @author David Duarte Garcia
- */
+
 public class PersonDto {
       private String id ;
       private String name ;

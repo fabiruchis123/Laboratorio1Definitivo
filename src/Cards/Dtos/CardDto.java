@@ -1,8 +1,5 @@
 package Cards.Dtos;
-/**
- *
- * @author David Duarte Garcia
- */
+
 public class CardDto {
     private String  number;
     private boolean active = true;

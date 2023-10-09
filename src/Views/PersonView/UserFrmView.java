@@ -8,10 +8,6 @@ import Persons.User;
 import Views.View;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author David Duarte Garcia
- */
 public class UserFrmView extends javax.swing.JFrame implements View<User> {
 
     /**

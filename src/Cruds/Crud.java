@@ -2,10 +2,6 @@ package Cruds;
 
 import java.util.List;
 
-/**
- *
- * @author David Duarte Garcia
- */
 public interface Crud<Class> {
     public boolean     create(Class obj);
     public Class       read(String id);

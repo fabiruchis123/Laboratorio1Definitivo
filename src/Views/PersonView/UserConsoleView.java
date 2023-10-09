@@ -3,10 +3,7 @@ package Views.personView;
 import Persons.User;
 import Views.View;
 
-/**
- *
- * @author David Duarte Garcia
- */
+
 public class UserConsoleView implements View<User> {
 
     @Override

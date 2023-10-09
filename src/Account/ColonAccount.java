@@ -2,10 +2,7 @@ package Account;
 
 import Persons.Customer;
 
-/**
- *
- * @author David Duarte Garcia
- */
+
 public class ColonAccount extends Account {
 
     public ColonAccount(String number, double balance, Customer customer) {

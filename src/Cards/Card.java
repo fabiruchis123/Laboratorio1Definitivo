@@ -2,10 +2,6 @@ package Cards;
 
 import StatusControll.StatusControll;
 
-/**
- *
- * @author David Duarte Garcia
- */
 public abstract class Card implements StatusControll {
     private String  number;
     private boolean active = true;

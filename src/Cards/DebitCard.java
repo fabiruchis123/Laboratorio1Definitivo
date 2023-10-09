@@ -3,10 +3,7 @@ package Cards;
 import Account.Account;
 import Persons.Customer;
 
-/**
- *
- * @author David Duarte Garcia
- */
+
 public class DebitCard extends Card {
     private Account account;
 

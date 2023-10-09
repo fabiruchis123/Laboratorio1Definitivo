@@ -1,8 +1,5 @@
 package Cards.Dtos;
-/**
- *
- * @author David Duarte Garcia
- */
+
 public class CreditCardDto extends CardDto {
     private double        balance;
     private double        creditLimit;

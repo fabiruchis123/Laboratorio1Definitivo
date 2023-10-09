@@ -4,10 +4,6 @@ package Account;
 import Persons.Customer;
 import StatusControll.StatusControll;
 
-/**
- *
- * @author David Duarte Garcia
- */
 public abstract class Account implements StatusControll{
     private String   number;
     double           balance;

@@ -1,9 +1,6 @@
 package Cards;
 
-/**
- *
- * @author David Duarte Garcia
- */
+
 public class CreditCard extends Card{
     private double        balance;
     private double        creditLimit;

@@ -6,10 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-/**
- *
- * @author David Duarte Garcia
- */
+
 public class UserDaoList implements Dao<UserDto> {
 
     private HashMap<String, UserDto> userList;

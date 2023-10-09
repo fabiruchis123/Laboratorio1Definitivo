@@ -4,10 +4,7 @@ import Account.Account;
 import Persons.Customer;
 import java.util.Date;
 
-/**
- *
- * @author David Duarte Garcia
- */
+
 public abstract class Transaction{
     private boolean amount;
     private Account source;

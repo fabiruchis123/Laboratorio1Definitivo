@@ -6,6 +6,10 @@ import Persons.Customer;
 public class ColonAccount extends Account {
 
     public ColonAccount(String number, double balance, Customer customer) {
+        this(number, balance, customer, "Colones");
+    }
+
+    public ColonAccount(String number, double balance, Customer customer, String colones) {
         super(number, balance, customer);
     }
 

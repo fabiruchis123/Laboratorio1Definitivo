@@ -27,6 +27,5 @@ public class PracticaMain {
         Customer customer6 = new Customer(new Date(1955,10,29),"SEIS@gmail.com"," 200 metros del cementerio, casa color azul cielo","3-4112-7891","Juan");
         Customer customer7 = new Customer(new Date(1966,12,1),"SIETE@gmail.com"," 400 metros del pali hacia al norte, casa color fucsia","5-0112-3891","Pablo");
     
-        CustomerDao.
         
 }

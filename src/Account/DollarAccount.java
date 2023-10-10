@@ -7,6 +7,10 @@ public class DollarAccount extends Account{
     private static double exchangeRate;
 
     public DollarAccount(String number, double balance, Customer customer) {
+        this(number, balance, customer, " Dolares");
+    }
+
+    public DollarAccount(String number, double balance, Customer customer, String _Dolares) {
         super(number, balance, customer);
     }
 

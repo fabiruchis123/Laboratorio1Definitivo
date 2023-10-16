@@ -8,7 +8,7 @@ import java.util.Date;
 
 public class TransferDto extends Transaction{
 
-    public TransferDto(boolean amount, Account source, Date date, String number, Customer customer) {
+    public TransferDto(Account destination ,boolean amount, Account source, Date date, String number, Customer customer) {
         super(amount, source, date, number, customer);
     }
 

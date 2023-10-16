@@ -12,10 +12,10 @@ public class AccountDaoList implements Crud<AccountDto>{
     
     private HashMap<String, AccountDto> AccountList;
 
-    public AccountDaoList(HashMap<String, AccountDto> AccountList) {
-        this.AccountList = AccountList;
+    public AccountDaoList(HashMap<String, AccountDto> AccountLists) {
+        this.AccountList = AccountLists;
     }
-    
+     
     @Override
     public boolean create(AccountDto account) {
         if (account == null){

@@ -1,6 +1,5 @@
 package Transactions.Dtos;
 
-
 import Account.Account;
 import Persons.Customer;
 import Transactions.Transaction;

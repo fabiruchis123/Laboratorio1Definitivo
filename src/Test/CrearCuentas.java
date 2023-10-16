@@ -12,15 +12,9 @@ import GestorCuentas.TipoMoneda;
 import Persons.Customer;
 import java.sql.Date;
 
-/**
- *
- * @author UTN
- */
 public class CrearCuentas {
 
-    /**
-     * @param args the command line arguments
-     */
+ 
     public static void main(String[] args) {
         
         Customer customer = new Customer(new Date(1999,2,29),"UNO@Gmail.com","A la par de la casa de JP","1-2222-3333","JeanCarlos");

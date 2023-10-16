@@ -5,10 +5,12 @@
 package Transactions.Daos;
 
 import Cruds.Crud;
+import Observer.Observer;
 import Transactions.Dtos.TransactionDto;
+import Transactions.Transaction;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Date;
+import java.util.List;
 
 /**
  *
@@ -16,17 +18,25 @@ import java.util.Date;
  */
 public class TransactionDaoList implements Crud<TransactionDto>{
     
+    private Transaction tans;
     private ArrayList<TransactionDto> ArrayTransaction;
+    private List<Observer> observadores = new ArrayList<>();
+    private boolean estado;
     
+    public boolean getEstado(){
+        return this.estado;
+    }
     public TransactionDaoList (ArrayList<TransactionDto> ArraysTransaction){
         this.ArrayTransaction= ArraysTransaction;
     }
     
     public boolean create(TransactionDto transaction) {
         if (transaction == null) {
+            setEstado(false);
             return false;
         }
         ArrayTransaction.add(transaction);
+        setEstado(true);
         return true;
     }
     
@@ -69,6 +79,25 @@ public class TransactionDaoList implements Crud<TransactionDto>{
          }
        }
         return null;
+    }
+    
+    public void setEstado(boolean estado) {
+        this.estado = estado;
+        notifyObservers();
+    }
+
+    public void addObserver(Observer observador) {
+        observadores.add(observador);
+    }
+
+    public void removeObserver(Observer observador) {
+        observadores.remove(observador);
+    }
+
+    private void notifyObservers() {
+        for (Observer observador : observadores) {
+            observador.notificar();
+        }
     }
     
     

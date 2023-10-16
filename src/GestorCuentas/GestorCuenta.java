@@ -16,11 +16,13 @@ import Persons.Customer;
 public class GestorCuenta {
   public   Account CrearCuenta(String number, double balance, Customer customer, TipoMoneda tipoMoneda){
       if(tipoMoneda==tipoMoneda.COLONES){
-          return new ColonAccount(number, balance, customer, "Colones");
+          return new ColonAccount(number, balance, customer, "COLONES");
       }else if(tipoMoneda==tipoMoneda.DOLARES){
-          return new DollarAccount(number,balance,customer, " Dolares");
+          return new DollarAccount(number,balance,customer, "DOLARES");
       }else{
           throw new IllegalArgumentException(" Tipo de moneda invalido");
       }
   }
+  
+  
 }

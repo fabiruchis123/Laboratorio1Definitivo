@@ -10,6 +10,11 @@ import java.util.List;
 public class CustomerDaoList implements Dao<CustomerDto> {
 
     private HashMap<String, CustomerDto> customerList;
+
+    public CustomerDaoList(HashMap<String, CustomerDto> customerList) {
+        this.customerList = customerList;
+    }
+    
     
     @Override
     public boolean create(CustomerDto cust) {

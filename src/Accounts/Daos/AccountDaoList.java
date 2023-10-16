@@ -12,6 +12,7 @@ public class AccountDaoList implements Crud<AccountDto>{
     private static AccountDaoList instance;
     private HashMap<String, AccountDto> AccountList;
 
+<<<<<<< HEAD
     private AccountDaoList(){
         AccountList= new HashMap<>();
     }
@@ -20,8 +21,12 @@ public class AccountDaoList implements Crud<AccountDto>{
             instance=new AccountDaoList();
         }
         return instance;
+=======
+    public AccountDaoList(HashMap<String, AccountDto> AccountLists) {
+        this.AccountList = AccountLists;
+>>>>>>> 6208582cc66675b4d3e611176b7e8d9ae46c8d7a
     }
-    
+     
     @Override
     public boolean create(AccountDto account) {
         if (account == null){

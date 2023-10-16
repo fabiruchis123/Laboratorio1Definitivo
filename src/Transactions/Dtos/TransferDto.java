@@ -1,12 +1,17 @@
 package Transactions.Dtos;
 
 import Account.Account;
+import Persons.Customer;
+import Transactions.Transaction;
+import java.util.Date;
 
 
-public class TransferDto{
-    private Account destination;
+public class TransferDto extends Transaction{
 
-    public TransferDto(Account destination) {
-        this.destination = destination;
-    } 
+    public TransferDto(Account destination ,boolean amount, Account source, Date date, String number, Customer customer) {
+        super(amount, source, date, number, customer);
+    }
+
+    
+    
 }

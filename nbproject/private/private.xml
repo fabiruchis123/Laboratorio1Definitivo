@@ -1,15 +1,75 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
 </project-private>
 =======
 <<<<<<<
+>>>>>>> 1fc81fb5fd612cd961ece6771b21f06f9f5a4348
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/Transactions/Controller/TransactionController.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>38</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
+        <group>
+            <file>file:/C:/Users/UTN/Documents/NetBeansProjects/Laboratorio1Definitivo/src/Transactions/Withdrawal.java</file>
+            <file>file:/C:/Users/UTN/Documents/NetBeansProjects/Laboratorio1Definitivo/src/Transactions/Controller/TransactionController.java</file>
+            <file>file:/C:/Users/UTN/Documents/NetBeansProjects/Laboratorio1Definitivo/src/Transactions/Dtos/DepositDto.java</file>
+            <file>file:/C:/Users/UTN/Documents/NetBeansProjects/Laboratorio1Definitivo/src/Account/Controller/AccounController.java</file>
+            <file>file:/C:/Users/UTN/Documents/NetBeansProjects/Laboratorio1Definitivo/src/Cards/Controller/CardController.java</file>
+            <file>file:/C:/Users/UTN/Documents/NetBeansProjects/Laboratorio1Definitivo/src/Transactions/Transfer.java</file>
+        </group>
+    </open-files>
+</project-private>
+=======
+<<<<<<< HEAD
+        <group>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Persons/Daos/UserDaoList.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Transactions/Dtos/WithdrawalDto.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Cards/Dtos/CardDto.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Transactions/Transfer.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Transactions/Withdrawal.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Views/PersonView/UserFrmView.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/NewMain.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Accounts/Daos/AccountDaoList.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Persons/Controller/UserController.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Transactions/Dtos/TransferDto.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Accounts/Dtos/ColonAccountDto.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Cards/Dtos/CreditCardDto.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Persons/Person.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Views/View.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Dao/Dao.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Transactions/Dtos/DepositDto.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Transactions/Dtos/TransactionDto.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Cards/Card.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Account/Account.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Views/PersonView/UserConsoleView.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Test/Test.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Cards/CreditCard.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Controller/Controller.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Persons/Dtos/PersonDto.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Accounts/Dtos/AccountDto.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Accounts/Dtos/DollarAccountDto.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Persons/User.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Persons/Dtos/UserDto.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Transactions/Transaction.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Persons/Dtos/CustomerDto.java</file>
+            <file>file:/C:/Users/UTN/Desktop/Laboratorio1Definitivo/src/Cruds/Crud.java</file>
+        </group>
+=======
         <group/>
+>>>>>>> desarrollo
     </open-files>
 </project-private>
 
@@ -24,3 +84,4 @@
 
 >>>>>>>
 >>>>>>> e18f1ac16d2c9abb0519af8035789b9718acc336
+>>>>>>> 1fc81fb5fd612cd961ece6771b21f06f9f5a4348

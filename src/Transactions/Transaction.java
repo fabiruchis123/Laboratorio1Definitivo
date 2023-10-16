@@ -1,6 +1,7 @@
 package Transactions;
 
 import Account.Account;
+import Observer.Observer;
 import Persons.Customer;
 import java.util.Date;
 
@@ -9,8 +10,6 @@ public abstract class Transaction{
     private boolean amount;
     private Account source;
     private Date    date;
-
-
 
     public Transaction(boolean amount, Account source, Date date, String number, Customer customer) {
         this.amount = amount;
@@ -36,5 +35,5 @@ public abstract class Transaction{
     public boolean execute(){
         return true;
     }
-    
+   
 }

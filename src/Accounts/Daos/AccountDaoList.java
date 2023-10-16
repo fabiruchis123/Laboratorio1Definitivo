@@ -9,11 +9,17 @@ import java.util.List;
 
 
 public class AccountDaoList implements Crud<AccountDto>{
-    
+    private static AccountDaoList instance;
     private HashMap<String, AccountDto> AccountList;
 
-    public AccountDaoList(HashMap<String, AccountDto> AccountList) {
-        this.AccountList = AccountList;
+    private AccountDaoList(){
+        AccountList= new HashMap<>();
+    }
+    public static AccountDaoList getInstance(){
+        if (instance==null){
+            instance=new AccountDaoList();
+        }
+        return instance;
     }
     
     @Override

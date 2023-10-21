@@ -1,6 +1,7 @@
 
 package Accounts.Daos;
 
+import Account.Account;
 import Accounts.Dtos.AccountDto;
 import Cruds.Crud;
 import java.util.ArrayList;

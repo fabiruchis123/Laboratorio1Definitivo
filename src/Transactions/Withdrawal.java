@@ -9,14 +9,20 @@ public class Withdrawal extends Transaction {
 
    
 
-    public Withdrawal(boolean amount, Account source, Date date, String number, Customer customer) {
-        super(amount, source, date, number, customer);
+    public Withdrawal(double amount, Account source, Date date) {
+        super(amount, source, date);
     }
 
    
    
     public boolean execute(){
-        return true;
+        Account sources = getSource();
+        if (getAmount() > 0 && getAmount() <= sources.getBalance()) {
+            sources.withdraw(getAmount());
+            return true;
+        }else{
+            return false;
+        }
     }
     
 }

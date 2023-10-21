@@ -8,8 +8,9 @@ import java.util.Date;
 
 public class DepositDto extends Transaction {
 
-    public DepositDto(boolean amount, Account source, Date date, String number, Customer customer) {
-        super(amount, source, date, number, customer);
+    public DepositDto(double amount, Account source, Date date) {
+        super(amount, source, date);
+        
     }
     
 

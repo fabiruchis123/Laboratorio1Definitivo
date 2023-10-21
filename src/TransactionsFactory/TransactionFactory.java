@@ -20,15 +20,15 @@ import java.util.Date;
  * @author UTN
  */
 public class TransactionFactory {
-    public Transaction crearTransaction(Account destination,boolean amount,Account source,Date date,String number,Customer customer,TipoTransactions tipo){
+    public Transaction crearTransaction(Account destination,double amount,Account source,Date date,TipoTransactions tipo){
         if (tipo == DEPOSITO) {
-            return new Deposit(amount,source,date,number,customer);
+            return new Deposit(amount,source,date);
         }
         if(tipo == TRANSFERENCIA){
-            return new Transfer(destination,amount,source,date,number,customer);
+            return new Transfer(destination,amount,source,date);
         }
         if (tipo == RETIRO) {
-            return new Withdrawal(amount,source,date,number,customer);
+            return new Withdrawal(amount,source,date);
             
         }else{
             throw new IllegalArgumentException("Tipo de transaccion invalida, intente de nuevo");

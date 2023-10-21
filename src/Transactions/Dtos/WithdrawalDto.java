@@ -8,8 +8,8 @@ import java.util.Date;
 
 public class WithdrawalDto extends Transaction{
     
-    public WithdrawalDto(boolean amount, Account source, Date date, String number, Customer customer) {
-        super(amount, source, date, number, customer);
+    public WithdrawalDto(double amount, Account source, Date date) {
+        super(amount, source, date);
     }
     
     

@@ -6,13 +6,7 @@ package Transactions.Controller;
 
 import Controller.Controller;
 import Dao.Dao;
-import Observer.Observer;
-import Persons.Customer;
-import Transactions.Deposit;
-import Transactions.Dtos.DepositDto;
-import Transactions.Dtos.TransferDto;
 import Transactions.Transaction;
-import Transactions.Transfer;
 import Views.View;
 import java.util.List;
 
@@ -29,20 +23,17 @@ public class TransactionController implements Controller<Transaction> {
         this.dao = dao;
     }
     
-    
-    
-    public boolean create(Transaction tran, Customer cust, String strig) {
-        
-        if (tran instanceof Deposit) {
-            DepositDto depo = new DepositDto (tran.isAmount(),tran.getSource(),tran.getDate(),strig,cust);
-            if (dao.create(depo)){
-                    view.displayMessage("Se hizo correctamente el deposito");
-        }else{
-                view.displayMessage("Error en el deposito");
-            }
-        }
+    /**
+     *
+     * @param tran
+     * @return
+     */
+    public boolean create(Transaction tran) {
+         //registrar
+        tran.execute();
+        //actualizar account 
+        //view
         return false;
-       
     }
 
     @Override
@@ -65,10 +56,6 @@ public class TransactionController implements Controller<Transaction> {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    @Override
-    public boolean create(Transaction obj) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
 
     
 }

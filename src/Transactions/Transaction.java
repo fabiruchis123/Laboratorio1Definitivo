@@ -1,25 +1,21 @@
 package Transactions;
 
 import Account.Account;
-import Observer.Observer;
-import Persons.Customer;
 import java.util.Date;
 
 
 public abstract class Transaction{
-    private boolean amount;
+    private double amount;
     private Account source;
     private Date    date;
 
-    public Transaction(boolean amount, Account source, Date date, String number, Customer customer) {
+    public Transaction(double amount, Account source, Date date) {
         this.amount = amount;
         this.source = source;
         this.date = date;
     }
 
-  
-
-    public boolean isAmount() {
+    public double getAmount() {
         return amount;
     }
 
@@ -30,7 +26,6 @@ public abstract class Transaction{
     public Date getDate() {
         return date;
     }
-    
     
     public boolean execute(){
         return true;
